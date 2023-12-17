@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website Design | Manoles </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/65ef32dd8e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p>
+                    <span style="color: #87CEEB; font-size: 38px; font-family: Arial Black;">J</span><span style="color: #FFFFFF; font-size: 38px; font-family: Arial Black;">onard.</span>
+                  </p>
+                  
+                  
+                   
+                <ul id="sidemenu">
+                    <li style="font-size: 20px;"><a href="#header">Home</a></li>
+                    <li style="font-size: 20px;"><a href="#about">About</a></li>
+                    <li style="font-size: 20px;"><a href="#expertise">Expertise</a></li>
+                    <li style="font-size: 20px;"><a href="#portfolio">Portfolio</a></li>
+                    <li style="font-size: 20px;"><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i> 
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hello, It's Me</p>
+                <h1><span>Jonard Manoles</span><br>I'm a College Student</h1>
+            </div>
+        </div>
+    </div> 
+    <!-- -----------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/bg.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title" style="font-size: 30px; font-style: Arial Bold;">About Me</h1>
+                    <p style="font-size: 15px; font-family: Arial Bold, sans-serif; margin-top: 18px;">Hey! I'm an IT student who's all about learning. 
+                        I love playing with code and facing challenges, it's like solving puzzles. 
+                        I believe I can handle any coding challenge that comes my way.
+                        I enjoy figuring things out and getting better at it. Besides studying, 
+                        I like trying out new techie things and working on problems with others.
+                        I think there's so much cool stuff to learn in the world of IT, 
+                        and I'm ready for all the challenges it brings. 
+                        Let's make coding fun and conquer those challenges together!</p>
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('talent')">Talent</p>
+                        <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>   
+                     <div class="tab-contents active-tab" id="talent">
+                        <ul>
+                            <li><span>2019 - Current</span><br>Drummer(Church)</li>
+                            <li><span>Leadership</span><br>I lead the youth group at my Church</li>
+                            <li><span>2017-2019</span><br>High school badminton champion</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="hobbies">
+                        <ul>
+                            <li><span>Photography</span><br>My gallery has lots of sunset,clouds and nature pictures</li>
+                            <li><span>Watch Movie</span><br>My fav. genres is Horror</li>
+                            <li><span>Online games</span><br>Mobile Legends,Call of Duty & Roblox</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-Current</span><br>Studying at Rizal Technological University(Boni)</li>
+                            <li><span>2021-2019</span><br>Gateways Institute of Science and Technology(Cogeo Branch)</li>
+                            <li><span>2019-2015</span><br>Cupang National High School</li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------expertise---------- -->
+    <div id="expertise">
+        <div class="container">
+            <h1 class="sub-title" style="font-size: 40px; font-style: Arial Bold, sans-serif;">Expertise</h1>
+            <div class="expertise-list">
+                <div>
+                    <i class="fa-solid fa-code" style="color: #FFFFFF;"></i>
+                   
+                    <h2 style="font-family: Arial Black;">IT STUDENT</h2>
+                    
+                    <p style="font-size: 20px; font-family: Arial Bold; color: #FFFFFF;">As an IT student, I joyfully explore coding, networks, and system designs, 
+                    fueled by a passion for continual learning in technology.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code" style="color: #FFFFFF;"></i>
+                    
+                    <h2 style="font-family: Arial Black;">OS</h2>
+                    
+                    <p style="font-size: 20px; font-family: Arial Bold; color: #FFFFFF;">IT students must grasp operating systems, which control hardware and software for smooth operations,
+                    addressing complexities.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-network-wired" style="color: #FFFFFF;"></i>
+                    
+                    <h2 style="font-family: Arial Black;">NETWORKING</h2>
+                
+                    <p style="font-size: 20px; font-family: Arial Bold; color: #FFFFFF;">A student clarified that in IT, networking intricately links computers and devices,
+                    facilitating the exchange of resources and information.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- ----------portfolio------------ -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title" style="font-size: 40px; font-style: Arial Bold, sans-serif;"> My Work</h1>
+        <div class="work-list">
+           <div class="work">
+                <img src="images/mywork1.1.png">
+                <div class="layer">
+                    <h3 style="font-family: Arial Black;">Canva App</h3>
+                    <p style="font-size: 20px; font-family: Arial Bold; color: #FFFFFF;">Since I was a first-year student, I've been using Canva for all my projects. 
+                    I learned how to use it and explored its features. I feel lucky because I've gained a lot of knowledge in Canva, which is now helping me.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+           </div>
+           <div class="work">
+                <img src="images/mywork2.3.png">
+                <div class="layer">
+                    <h3 style="font-family: Arial Black;">WPS App</h3>
+                    <p style="font-size: 20px; font-family: Arial Bold; color: #FFFFFF;">Without Microsoft Office, I've adapted to WPS a user-friendly aid in my tasks. I explored its features,and now much of my hard work resides in WPS,
+                    proving its effectiveness in enhancing my productivity."</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+           </div>
+           <div class="work">
+                <img src="images/mywork4.png">
+                <div class="layer">
+                    <h3 style="font-family: Arial Black;">Lightroom App</h3>
+                    <p style="font-size: 20px; font-family: Arial Bold; color: #FFFFFF;">I love editing photos with Lightroom. I started exploring it in my first year because it's great,
+                    and now I've saved many edited pictures in my gallery, some of which I share on my Instagram.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+           </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div> 
+ <!-- ----------contact------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title" style="font-size: 40px; font-style: Arial Bold, sans-serif;">Contact</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>jonardmanoles@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>09755062303</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/jonard.manoles.58"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://instagram.com/dranoj_1202"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://tiktok.com/@lodikaysss"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea> 
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p style="font-size: 20px;">© 2023 Manoles. All rights reserved. Inspired by jamiewilson.</p>
+        </div>
+    </div>
+ </div>
+ 
+ <script>
+
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>  
